@@ -1,0 +1,111 @@
+/* Add.css */
+
+/* .form-add {
+  width: 50%;
+  margin: 20px auto;
+} */
+
+.form-add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 9ada tbadel fil register */
+.input-add {
+  margin: 10px 0;
+  padding: 8px;
+  width: 80%;
+}
+/* 9ada tbadel fil register */
+.form-add{
+  /* background-color: #4caf50; */
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #45a049;
+}
+
+.card {
+  width: 50%;
+  margin: 20px auto;
+  
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.card-input {
+  margin: 10px 0;
+  padding: 8px;
+  width: 80%;
+  
+}
+
+.card button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #45a049;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.movie-item {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.update-button {
+  background-color: #3498db;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.update-button:hover {
+  background-color: #2980b9;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+.card-forme-add {
+  border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 40px;
+    margin: 10px;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: beige;
+    margin-left: 50%;
+   padding-left: -30% ;
+}

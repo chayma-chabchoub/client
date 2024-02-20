@@ -1,0 +1,199 @@
+/* home.css */
+
+.movie-slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .movie-slider-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .movie-card {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .movie-slide-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-details{
+    width: 400%;
+    height: 300px;
+    border-radius: 6px;
+  }
+  
+  .movie-slide-item-title {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  
+  .rating {
+    font-size: 14px;
+    color: #f39c12; /* Adjust color as needed */
+  }
+  
+  .movie-slider-icons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .bi {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #3498db; /* Adjust color as needed */
+  }
+  
+  .movie-slider-arrow-left,
+  .movie-slider-arrow-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    color: #2ecc71; /* Adjust color as needed */
+  }
+  
+  .movie-slider-arrow-left {
+    left: 10px;
+  }
+  
+  .movie-slider-arrow-right {
+    right: 10px;
+  }
+  /* watch trailer style */
+  .styled-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    color: #3498db;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect */
+.styled-button:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* card style */
+
+/* Add appropriate styling for movie cards */
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 350px;
+  height: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: beige;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  
+}
+
+.movie-card .movie-details {
+  margin-top: 10px;
+}
+
+.movie-card .movie-slide-item-title {
+  font-weight: bold;
+}
+
+.movie-card .genre {
+  color: #555;
+}
+
+.movie-card .description {
+  color: gray;
+}
+
+.movie-card .styled-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #861313;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  border-color: #861313;
+  margin-top: 10px;
+  
+}
+/* form update/delete about add */
+.update-section {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.movie-card h1 {
+  font-size: 18px;
+}
+
+.movie-card p {
+  margin: 8px 0;
+}
+
+.update-button-1 {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #00ff0d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+ .update-section {
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+}
+
+.input {
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex-direction: row-reverse;
+}
+
+.update-section-2  {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #28a745;
+}
+
+.delete-button {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #dc3545;
+}
